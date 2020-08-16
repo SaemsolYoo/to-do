@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>🌈ToDoList💘</title>
+  </head>
+  <body>
+    <!-- canlendar,clock -->
+    <div class="js-today today">
+      <div class="js-calendar calendar">
+        <h2>2020, Monday, 11 Aug</h2>
+      </div>
+      <div class="js-clock clock">
+        <h1>00:00</h1>
+      </div>
+    </div>
+    <!--// canlendar,clock -->
+    <!-- greeting -->
+    <div class="js-greeting-container greeting-container">
+      <form class="js-greetingFrom greetingFrom">
+        <input type="text" placeholder="What's your Name?" />
+      </form>
+      <div class="userNameArea">
+        <h4 class="js-greetings greetings">
+          <!-- Hello! saemsol's Tasks🌈💘 -->
+        </h4>
+        <button class="js-rename rename">reset</button>
+      </div>
+    </div>
+    <!--// greeting -->
+    <!-- toDoList -->
+    <div class="js-toDo-Container toDo-Container">
+      <form class="js-toDoForm toDoForm">
+        <input type="text" placeholder="write a to do" />
+        <button type="submit">Add Task</button>
+      </form>
+      <div class="js-toDoLists toDoLists">
+        <div class="js-pending pending">
+          <h1>Todo List</h1>
+          <ul class="js-pendingList"></ul>
+        </div>
+        <div class="js-finished finished">
+          <h1>Finished</h1>
+          <ul class="js-finishedList">
+            <li>
+              <button>v</button><span>Homepage refresh</span
+              ><button class="delete">🗑</button
+              ><button class="status">ongoing</button>
+            </li>
+            <li>
+              <button>v</button><span>Homepage refresh</span
+              ><button class="delete">🗑</button
+              ><button class="status">ongoing</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--// toDoList -->
+  </body>
+</html>
