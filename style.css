@@ -41,10 +41,11 @@ body {
 }
 
 /* weather */
+
 .weather {
   position: absolute;
-  left: 11px;
-  right: 15px;
+  left: 15px;
+  top: 11px;
   font-size: 16px;
   font-weight: 600;
   color: #a4afbf;
