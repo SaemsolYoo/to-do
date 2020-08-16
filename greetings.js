@@ -20,7 +20,7 @@ function paintGreeting(text) {
   form.classList.remove(SHOWING_CN);
   greeting.classList.add(SHOWING_CN);
   rename.classList.add(SHOWING_CN);
-  greeting.innerText = `Hello! ${text}'s Tasks 🌈💘`;
+  greeting.innerText = `😀 Hello! ${text}'s Tasks`;
   rename.addEventListener("click", resetUserName);
 }
 
