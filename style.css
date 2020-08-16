@@ -200,6 +200,10 @@ body {
   color: #679ebf;
 }
 
+.delete:hover {
+  color: #ff4a4a;
+}
+
 .delete,
 .status {
   float: right;
