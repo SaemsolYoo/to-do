@@ -40,6 +40,16 @@ body {
   font-weight: 600;
 }
 
+/* weather */
+.weather {
+  position: absolute;
+  left: 11px;
+  right: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #a4afbf;
+}
+
 /* greeting */
 .greeting-container {
   display: flex;
@@ -176,11 +186,17 @@ body {
 .js-finishedList li {
   padding: 4px 0 6px 0;
   border-bottom: 2px solid #f2f2f2;
+  color: 45px;
+  font-family: "Alata", sans-serif;
 }
 
 .check,
 .status {
   margin-right: 10px;
+}
+
+.check:hover {
+  color: #679ebf;
 }
 
 .delete,
