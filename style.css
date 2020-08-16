@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  background-color: #f5f5f5;
+}
+
+/* calendar and clock */
+.today {
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1.3px solid #e5e5e5;
+}
+
+.calendar h2 {
+  font-size: 16px;
+  padding-top: 2px;
+  font-weight: normal;
+}
+
+.clock {
+  position: absolute;
+  top: 11px;
+  right: 15px;
+}
+
+.clock h1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* greeting */
+.greeting-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.greetingFrom input {
+  border: none;
+  border-radius: 6px;
+  background-color: #e5e5e5;
+  height: 30px;
+  width: 300px;
+  padding: 0 12px;
+}
+
+.greetingFrom input:focus {
+  outline: none;
+}
+
+.greetings {
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.greetingFrom,
+.greetings,
+.rename {
+  display: none;
+}
+
+.userNameArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.showing {
+  display: block;
+}
+
+.rename {
+  /* padding: 2px; */
+  cursor: pointer;
+
+  height: 25px;
+  padding: 0 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  background-color: #ff4438;
+}
+/* toDoList */
+.toDo-Container {
+  width: 832px;
+  height: 1749px;
+  background: #ffffff;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.05), -2px -2px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 35px 30px;
+}
+
+.toDoForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.toDoForm input {
+  width: 86%;
+  height: 35px;
+  padding-left: 10px;
+
+  background: #f6f6f6;
+  border: none;
+  border-radius: 4px;
+}
+
+.toDoForm input::placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  color: #d9d6d6;
+}
+
+.toDoForm button {
+  height: 35px;
+  width: 94px;
+  background: #53a9ef;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.toDoForm input:focus,
+.toDoForm button:focus,
+.status:focus {
+  outline: none;
+}
+
+/* toDoList */
+.pending h1,
+.finished h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.toDoLists div ul {
+  list-style: none;
+  padding: 0;
+}
+
+.js-pending {
+  margin-bottom: 30px;
+}
+
+.js-pendingList li,
+.js-finishedList li {
+  padding: 4px 0 6px 0;
+  border-bottom: 2px solid #f2f2f2;
+}
+
+.check,
+.status {
+  margin-right: 10px;
+}
+
+.delete,
+.status {
+  float: right;
+  cursor: pointer;
+}
+
+.status {
+  width: 72px;
+  height: 20px;
+  background: #ff7d75;
+  border: none;
+  border-radius: 10px;
+  padding-bottom: 2px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+i {
+  color: #c9c9c9;
+  cursor: pointer;
+}
