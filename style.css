@@ -105,7 +105,7 @@ body {
 /* toDoList */
 .toDo-Container {
   width: 832px;
-  height: 1749px;
+  height: 100%;
   background: #ffffff;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.05), -2px -2px 3px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
