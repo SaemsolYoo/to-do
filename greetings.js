@@ -8,7 +8,7 @@ const USER_LS = "currentUser";
 const SHOWING_CN = "showing";
 
 function resetUserName(event) {
-  localStorage.clear();
+  localStorage.removeItem(USER_LS);
   location.reload(true);
 }
 
